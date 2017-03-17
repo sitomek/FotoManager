@@ -1,0 +1,117 @@
+body {
+    padding-top: 70px;
+    background-color: white;
+  }
+
+
+.navbar-nav li a:hover {
+   background-color: :#CC181E; 
+}
+.row {
+    height: 200px;
+}
+
+.icon-prev {
+    font-size: 20px;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+}
+.carousel-caption{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0;
+    bottom: 0;
+    background-color:rgba(0,0,0,0.5) ;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+.carousel-indicators {
+    margin-top: 10px;
+    top:0;
+}
+.panel .panel-heading {
+    background-color:black;
+    border-color:grey;
+}
+.panel {
+    background-color:black;
+    border-color: grey;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*   Strona z YouTube                                                                */
+/*-----------------------------------------------------------------------------------*/
+.container.youtube {
+    background-color:#FFFFFF;
+}
+.panel-body.youtube{
+    background-color:#F1F1F1;
+}
+/*-----------------------------------------------------------------------------------*/
+/*   Strona Przeglądanie zdjęć                                                       */
+/*-----------------------------------------------------------------------------------*/
+.thumbnail {
+    background-color: black;
+}
+.caption h3 {
+    font-size: 1em;
+}
+.row.regulacja {
+    height: 40px;
+}
+.col-md-offset-10.regulacja {
+    /*margin-left: 20px;*/
+}
+.glyphicon {
+    font-size: 15px;
+}
+
+.wrap_all {
+    left:350px;
+    background-color: white;
+    border:10px dotted red;
+}
+#popup {
+    position: absolute;
+    display: none;
+}
+
+#formWoj {
+    margin: 10px;
+}
+#woj {
+    padding: 1px 0px;
+    width: 150px;
+}
+#suggestBoxField {
+    position: absolute;
+    visibility: hidden;
+}
+.podpowiedzi {
+    width: 150px;
+    background-color: gray;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+.podpowiedzihover {
+    width: 150px;
+    background-color: teal;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+.error{
+    background-color: red;
+}
+.daneWoj{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+}
+.cellHeader{
+    font-weight: bold;
+    
+}
